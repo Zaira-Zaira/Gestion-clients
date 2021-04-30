@@ -1,0 +1,152 @@
+:root {
+  --color-blue: #09599a;
+  --color-green: #00614e;
+  --color-green-light: rgba(0, 97, 78, 0.08);
+  --color-red: #d63031;
+  --color-black: #222;
+  --color-white: #fff;
+  --color-grey: rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+/* Main */
+main {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+main table {
+  font-size: 2rem;
+}
+main table thead {
+  background-color: var(--color-green);
+  color: var(--color-white);
+}
+main table td,
+main table th {
+  padding: 1rem;
+}
+main table tbody tr:nth-child(2n + 1) {
+  background-color: var(--color-green-light);
+}
+
+main table tbody tr td:nth-child(1),
+main table tbody tr td:nth-child(4) {
+  text-align: center;
+}
+section{
+  margin-top: 2.5rem;
+  padding: 5rem 2.5rem;
+  background: linear-gradient(var(--color-green) 0 0) 0 100%,
+  linear-gradient(var(--color-green) 0 0) 0 100%,
+  linear-gradient(var(--color-green) 0 0) 100% 0,
+  linear-gradient(var(--color-green) 0 0) 100% 0;
+background-size: 6rem 0.3rem, 0.3rem 6rem;
+background-repeat: no-repeat;
+background-position: 100% 100%, 0 0, 0 0, 100% 100%;
+background-color: var(--color-white);
+}
+form > a {
+  display: block;
+  max-width: 20rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form a {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: var(--color-green);
+}
+form a:focus {
+  text-decoration: underline;
+}
+form a i {
+  padding: 0 0 0 0.6rem;
+  font-size: 1.2rem;
+}
+.warning {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  background-color: var(--color-red);
+  color: var(--color-white);
+  margin-bottom: 1rem;
+}
+ form label {
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+form label{
+  margin-bottom: 1rem;
+}
+form input {
+  max-width: 60%;
+  padding: 0.4rem 0 0.4rem 1rem;
+  border: var(--color-white) 0.1rem solid;
+  border-bottom: 0.1rem solid var(--color-grey);
+  font-size: 2rem;
+  transition: 0.4s;
+}
+form input:focus {
+  max-width: 100%;
+  border: var(--color-black) 0.1rem solid;
+}
+form input[type="submit"] {
+  width: 22rem;
+  margin: 2rem auto 0 0;
+  padding: 1rem 2rem;
+  border: 0;
+  background-color: var(--color-green);
+  color: var(--color-white);
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+main p {
+  margin-top: 4rem;
+  padding: 6rem 2rem;
+  border-top: var(--color-grey) 0.2rem solid;
+  border-bottom: var(--color-grey) 0.2rem solid;
+}
+
+main p a.delete {
+  display: block;
+  width: 22rem;
+  padding: 1rem 2rem;
+  background-color: var(--color-red);
+  color: var(--color-white);
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+main p a.delete:focus,
+main form input[type="submit"]:focus {
+  transform: scale(0.9);
+}
+
+/* Footer */
+footer p {
+  padding: 1rem;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  text-align: center;
+}

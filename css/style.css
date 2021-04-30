@@ -1,0 +1,216 @@
+/* theme */
+/* :root{
+    --primary-color: #222;
+    --secondary-color : #FFF;
+    --green-color : #00614E;
+    --blue-btn-color: #09599A;
+    --red-warning-color : #d63031;
+}
+header h1 {
+    margin: 2rem auto;
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 1rem 0;
+    color: var(--secondary-color);
+    max-width: 85rem;
+}
+section{
+    margin: 5.0rem auto;
+    max-width: 70%;
+    width: 100%;
+}
+table{
+    margin-bottom: 2rem;
+    width: 100%;
+}
+table,td,th{
+    border-collapse: collapse;
+    border: solid 0.1rem #fafafa;
+    line-height: 3.5rem;
+    padding: 0.7rem 2.5rem;
+}
+table thead tr th:first-child{
+   width: 100%;
+}
+table thead tr th{
+    width:  20%;
+    text-align: center;
+    background-color: var(--green-color);
+    color: var(--secondary-color);
+}
+table tbody td{
+    padding: 0.7rem 2.0rem;
+}
+table tbody tr:nth-child(2n + 1) {
+    background-color: var(--green-color);
+}
+i{
+    padding-right: 0.2rem;
+}
+input{
+    max-width: 50%;
+}
+tfoot{
+    text-align: center;
+    border: 0;
+}
+tfoot input[type="submit"]{
+    background-color: var(--blue-btn-color);
+    color : var(--secondary-color);
+    font-size: 1.7rem;
+    font-weight: 100;
+    padding: 1rem 1.5rem;
+    border: solid 0.1rem var(--blue-btn-color);
+    cursor: pointer;
+    margin-top: 1rem;
+} */
+
+
+/* Theme */
+:root {
+    --color-blue: #09599a;
+    --color-green: #00614e;
+    --color-green-light: rgba(0, 97, 78, 0.08);
+    --color-red: #d63031;
+    --color-black: #222;
+    --color-white: #fff;
+    --color-grey: rgba(0, 0, 0, 0.1);
+  }
+
+  header h1 {
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-size: 3.2rem;
+    font-weight: 400;
+  }
+  main {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  main table {
+    font-size: 2rem;
+  }
+  main table thead {
+    background-color: var(--color-green);
+    color: var(--color-white);
+  }
+  main table td,
+  main table th {
+    padding: 1rem;
+  }
+  main table tbody tr:nth-child(2n + 1) {
+    background-color: var(--color-green-light);
+  }
+  
+  main table tbody tr td:nth-child(1),
+  main table tbody tr td:nth-child(4) {
+    text-align: center;
+  }
+  
+  tfoot{
+    text-align: center;
+    border: 0;
+}
+  main > a {
+    display: block;
+    max-width: 20rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+  }
+  main form {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 2rem;
+    background-size: 6rem 0.3rem, 0.3rem 6rem;
+    background-repeat: no-repeat;
+    background-position: 100% 100%, 0 0, 0 0, 100% 100%;
+    background-color: var(--color-white);
+  }
+  main form a {
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: var(--color-green);
+  }
+  main form a:focus {
+    text-decoration: underline;
+  }
+  main form a i {
+    padding: 0 0 0 0.6rem;
+    font-size: 1.2rem;
+  }
+  .warning {
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: var(--color-red);
+    color: var(--color-white);
+  }
+  main form label {
+    padding-top: 2rem;
+    font-size: 2rem;
+  }
+  main form input {
+    max-width: 50%;
+    padding: 0.4rem 0 0.4rem 1rem;
+    border: var(--color-white) 0.1rem solid;
+    border-bottom: 0.1rem solid var(--color-grey);
+    font-size: 2rem;
+    transition: 0.4s;
+  }
+  main form input:focus {
+    max-width: 100%;
+    border: var(--color-black) 0.1rem solid;
+  }
+  main form input[type="submit"] {
+    width: 22rem;
+    margin: 2rem auto 0 0;
+    padding: 1rem 2rem;
+    border: 0;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  main p {
+    margin-top: 4rem;
+    padding: 6rem 2rem;
+    border-top: var(--color-grey) 0.2rem solid;
+    border-bottom: var(--color-grey) 0.2rem solid;
+  }
+  
+  main p a.delete {
+    display: block;
+    width: 22rem;
+    padding: 1rem 2rem;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  main p a.delete:focus,
+  main form input[type="submit"]:focus {
+    transform: scale(0.9);
+  }
+  
+  /* Footer */
+  footer p {
+    padding: 1rem;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    text-align: center;
+  }
+
+
+
