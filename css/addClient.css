@@ -16,7 +16,6 @@ header h1 {
   font-size: 3.2rem;
   font-weight: 400;
 }
-/* Main */
 main {
   max-width: 70rem;
   margin: 0 auto;
@@ -108,7 +107,7 @@ form input:focus {
   max-width: 100%;
   border: var(--color-black) 0.1rem solid;
 }
-form input[type="submit"] {
+form input[name="update"], input[name="create"] {
   width: 22rem;
   margin: 2rem auto 0 0;
   padding: 1rem 2rem;
@@ -119,29 +118,30 @@ form input[type="submit"] {
   cursor: pointer;
   transition: 0.2s;
 }
-main p {
-  margin-top: 4rem;
-  padding: 6rem 2rem;
-  border-top: var(--color-grey) 0.2rem solid;
-  border-bottom: var(--color-grey) 0.2rem solid;
-}
-
-main p a.delete {
-  display: block;
+form input[name="delete"] {
   width: 22rem;
+  margin: 2rem auto 0 0;
   padding: 1rem 2rem;
+  border: 0;
   background-color: var(--color-red);
   color: var(--color-white);
-  font-size: 2rem;
   font-weight: 500;
-  text-align: center;
   cursor: pointer;
   transition: 0.2s;
 }
-main p a.delete:focus,
-main form input[type="submit"]:focus {
+ p {
+  margin-top: 4rem;
+  font-size: 1.7rem;
+  color: var(--color-red);
+  font-weight: bold;
+  padding: 2rem 2rem;
+}
+
+ p a.delete:focus,
+ form input[type="submit"]:focus {
   transform: scale(0.9);
 }
+
 
 /* Footer */
 footer p {

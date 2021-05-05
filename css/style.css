@@ -88,6 +88,7 @@ tfoot input[type="submit"]{
   main {
     max-width: 70%;
     margin: 0 auto;
+    width: 100%;
   }
   main table {
     font-size: 2rem;
@@ -153,11 +154,11 @@ tfoot input[type="submit"]{
     background-color: var(--color-red);
     color: var(--color-white);
   }
-  main form label {
+  form label {
     padding-top: 2rem;
     font-size: 2rem;
   }
-  main form input {
+   form input {
     max-width: 50%;
     padding: 0.4rem 0 0.4rem 1rem;
     border: var(--color-white) 0.1rem solid;
@@ -165,11 +166,11 @@ tfoot input[type="submit"]{
     font-size: 2rem;
     transition: 0.4s;
   }
-  main form input:focus {
+  form input:focus {
     max-width: 100%;
     border: var(--color-black) 0.1rem solid;
   }
-  main form input[type="submit"] {
+  form input[type="submit"] {
     width: 22rem;
     margin: 2rem auto 0 0;
     padding: 1rem 2rem;
@@ -180,14 +181,14 @@ tfoot input[type="submit"]{
     cursor: pointer;
     transition: 0.2s;
   }
-  main p {
+  p {
     margin-top: 4rem;
     padding: 6rem 2rem;
     border-top: var(--color-grey) 0.2rem solid;
     border-bottom: var(--color-grey) 0.2rem solid;
   }
   
-  main p a.delete {
+  .delete {
     display: block;
     width: 22rem;
     padding: 1rem 2rem;
@@ -200,7 +201,7 @@ tfoot input[type="submit"]{
     transition: 0.2s;
   }
   main p a.delete:focus,
-  main form input[type="submit"]:focus {
+ form input[type="submit"]:focus {
     transform: scale(0.9);
   }
   

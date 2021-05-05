@@ -32,7 +32,7 @@
                 <input type="email" name="mail" id="mail" aria-required="true">
 
                 <label for="submit"></label>
-                <input type="submit" name="submit" id="submit" value="Créer">
+                <input type="submit" name="create" id="submit" value="Créer">
             </form>
         </section>
     </main>

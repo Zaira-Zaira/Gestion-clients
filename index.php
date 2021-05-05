@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <h1>Maison des ligues : interface admin</h1>
+        <h1> &#9881;Maison des ligues : interface admin</h1>
     </header>
 
     <main>
@@ -39,7 +39,7 @@
 
       <tfoot>
           <tr>
-              <td colspan=5><input type="submit" value="Ajouter un client" name="submit"></td>
+              <td colspan=5><input type="submit" value="+ Ajouter un client" name="submit"></td>
           </tr>
      </tfoot>
     </table>
