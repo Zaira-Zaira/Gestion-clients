@@ -1,5 +1,5 @@
 <?php 
-  if(isset($_POST['submit'])){
+  if(isset($_POST['create'])){
       if($_POST['lastname'] == "" || $_POST['firstname'] == "" || $_POST['age'] == "" || $_POST['mail'] == ""){
           echo "<p class='warning'>Tous les champs sont obligatoires!!!</p>";
       }else {

@@ -17,7 +17,7 @@
     </header>
 
     <main>
-    <section>
+    <section class="listUsers">
       <form action="#"method="get">
     <table>
       <thead>

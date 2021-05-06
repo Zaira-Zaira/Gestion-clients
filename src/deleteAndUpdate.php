@@ -23,7 +23,7 @@ session_start();
     <main>
         <section>
         <?php require('./UpdateUser.php') ?>
-        <h2><a href="../index.php">Voir la liste des utilisateurs</a></h2>
+        <h2><a href="../index.php">Voir la liste des utilisateurs <i class="fas fa-chevron-right"></i></a></h2>
             <form action="#" method="post" class="form">
                 <label for="lastname">Nom :</label>
                 <input type="text" name="lastname" id="lastname" aria-required="true" value="<?php echo $userUpdateData['nom'] ?>">

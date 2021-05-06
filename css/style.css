@@ -86,13 +86,13 @@ tfoot input[type="submit"]{
     font-weight: 400;
   }
   main {
-    max-width: 70%;
+    max-width: 85rem;
     margin: 0 auto;
     width: 100%;
   }
-  main table {
+  /* main table {
     font-size: 2rem;
-  }
+  } */
   main table thead {
     background-color: var(--color-green);
     color: var(--color-white);
@@ -124,6 +124,11 @@ tfoot input[type="submit"]{
     font-weight: 400;
     background-color: var(--color-blue);
     color: var(--color-white);
+  }
+  main .listUsers{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 80rem;
   }
   main form {
     display: flex;
@@ -201,7 +206,7 @@ tfoot input[type="submit"]{
     transition: 0.2s;
   }
   main p a.delete:focus,
- form input[type="submit"]:focus {
+  form input[type="submit"]:focus {
     transform: scale(0.9);
   }
   
@@ -211,6 +216,14 @@ tfoot input[type="submit"]{
     background-color: var(--color-black);
     color: var(--color-white);
     text-align: center;
+  }
+
+
+  @media screen and (max-width: 620px) {
+    main {
+      margin: 0 auto;
+      width: 100%;
+    }
   }
 
 
