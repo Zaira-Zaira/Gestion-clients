@@ -32,6 +32,5 @@ La base de données vous sera nommée « client_ligue » la table la nommer « c
 4) Utilisez Visual Studio Code et phpMyAdmin pour la bdd
 5) Le code HTML généré doit être valide selon les normes du W3C et tester également pour les spécificités de la WAI et du WCAG (accessibilité).
 
-6)
 
 
