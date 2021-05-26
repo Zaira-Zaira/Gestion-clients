@@ -1,72 +1,4 @@
-/* theme */
-/* :root{
-    --primary-color: #222;
-    --secondary-color : #FFF;
-    --green-color : #00614E;
-    --blue-btn-color: #09599A;
-    --red-warning-color : #d63031;
-}
-header h1 {
-    margin: 2rem auto;
-    text-align: center;
-    background-color: var(--primary-color);
-    padding: 1rem 0;
-    color: var(--secondary-color);
-    max-width: 85rem;
-}
-section{
-    margin: 5.0rem auto;
-    max-width: 70%;
-    width: 100%;
-}
-table{
-    margin-bottom: 2rem;
-    width: 100%;
-}
-table,td,th{
-    border-collapse: collapse;
-    border: solid 0.1rem #fafafa;
-    line-height: 3.5rem;
-    padding: 0.7rem 2.5rem;
-}
-table thead tr th:first-child{
-   width: 100%;
-}
-table thead tr th{
-    width:  20%;
-    text-align: center;
-    background-color: var(--green-color);
-    color: var(--secondary-color);
-}
-table tbody td{
-    padding: 0.7rem 2.0rem;
-}
-table tbody tr:nth-child(2n + 1) {
-    background-color: var(--green-color);
-}
-i{
-    padding-right: 0.2rem;
-}
-input{
-    max-width: 50%;
-}
-tfoot{
-    text-align: center;
-    border: 0;
-}
-tfoot input[type="submit"]{
-    background-color: var(--blue-btn-color);
-    color : var(--secondary-color);
-    font-size: 1.7rem;
-    font-weight: 100;
-    padding: 1rem 1.5rem;
-    border: solid 0.1rem var(--blue-btn-color);
-    cursor: pointer;
-    margin-top: 1rem;
-} */
-
-
-/* Theme */
+/*theme */
 :root {
     --color-blue: #09599a;
     --color-green: #00614e;
@@ -125,11 +57,11 @@ tfoot input[type="submit"]{
     background-color: var(--color-blue);
     color: var(--color-white);
   }
-  main .listUsers{
+  /* main .listUsers{
     width: 100%;
     margin: 0 auto;
     max-width: 80rem;
-  }
+  } */
   main form {
     display: flex;
     flex-direction: column;
@@ -223,6 +155,14 @@ tfoot input[type="submit"]{
     main {
       margin: 0 auto;
       width: 100%;
+    }
+    main table td,
+    main table th {
+      padding: 0.5rem;
+    }
+    main form a {
+      font-size: 1.6rem;
+      color: var(--color-green);
     }
   }
 
